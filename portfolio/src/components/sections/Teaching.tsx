@@ -56,7 +56,7 @@ export default function Teaching() {
         >
           <Sparkles className="w-6 h-6 text-indigo-400 mx-auto mb-4" />
           <p className="text-xl md:text-2xl font-semibold text-gray-200 italic max-w-2xl mx-auto leading-relaxed">
-            "When you can teach a concept clearly enough for a beginner to build something real with it, you've truly mastered it."
+            &ldquo;When you can teach a concept clearly enough for a beginner to build something real with it, you&apos;ve truly mastered it.&rdquo;
           </p>
         </motion.blockquote>
 
@@ -121,7 +121,7 @@ export default function Teaching() {
         >
           <h3 className="text-base font-semibold text-white mb-6 flex items-center gap-2">
             <FolderOpen className="w-5 h-5 text-indigo-400" />
-            Student Projects I've Supervised
+            Student Projects I&apos;ve Supervised
           </h3>
           <div className="grid sm:grid-cols-2 gap-3">
             {TEACHING.studentProjects.map((project, i) => (
@@ -132,7 +132,7 @@ export default function Teaching() {
             ))}
           </div>
           <p className="text-xs text-gray-600 mt-6 pt-6 border-t border-white/[0.06] italic">
-            I don't just teach tools. I teach how to think about problems — and how to build solutions that go beyond the classroom.
+            I don&apos;t just teach tools. I teach how to think about problems — and how to build solutions that go beyond the classroom.
           </p>
         </motion.div>
       </div>
